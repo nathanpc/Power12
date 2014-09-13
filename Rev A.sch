@@ -12529,161 +12529,6 @@ high speed (Philips)</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
-<packages>
-<package name="JST-PH-2-SMT-RA">
-<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
-<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
-<text x="2.286" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="-3.429" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
-</package>
-<package name="JST-PH-2-THM">
-<description>4UCon #01528
-http://www.4uconnector.com/online/object/4udrawing/01528.pdf</description>
-<wire x1="3" y1="-1.7" x2="0.5" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.7" x2="0.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-2.2" x2="-0.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-2.2" x2="-0.5" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.7" x2="-3" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.7" x2="-3" y2="2.8" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.8" x2="3" y2="2.8" width="0.127" layer="21"/>
-<wire x1="3" y1="2.8" x2="3" y2="-1.7" width="0.127" layer="21"/>
-<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
-<text x="-2.8" y="-3.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="4.064" y="0.762" size="1.27" layer="21" font="vector" rot="R180">+</text>
-<text x="-3.302" y="0.762" size="1.27" layer="21" font="vector" rot="R180">-</text>
-</package>
-<package name="JST-PH-2-THM-RA">
-<description>&lt;b&gt;S2B-PH-K-S&lt;/b&gt; 
-&lt;p&gt;
-JST PH 2-pin thru-home side entry</description>
-<wire x1="-3" y1="6.3" x2="3" y2="6.3" width="0.127" layer="51"/>
-<wire x1="3" y1="6.3" x2="3" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-3" y1="-1.4" x2="-3" y2="6.3" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-3" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="3" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-0.3" x2="2.1" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-0.3" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="6.3" x2="-0.3" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="3.4" x2="0.3" y2="3.4" width="0.127" layer="21"/>
-<wire x1="0.3" y1="3.4" x2="0.3" y2="6.3" width="0.127" layer="21"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224"/>
-<text x="-2.7" y="-3.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
-</package>
-<package name="JST-PH-2-SMT">
-<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
-<smd name="1" x="-1" y="-1.8" dx="1" dy="5.5" layer="1"/>
-<smd name="2" x="1" y="-1.8" dx="1" dy="5.5" layer="1"/>
-<smd name="NC1" x="-3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
-<text x="-2.914" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="2.271" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PINHD2">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JST_2PIN" prefix="CN" uservalue="yes">
-<description>&lt;b&gt;JST 2-Pin Connectors of various flavors&lt;/b&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SMT-RA (S2B-PH-SM4) 4UConnector #17311&lt;/li&gt;
-&lt;li&gt;SMT  (B2B-PH-SM4)&lt;/li&gt;
-&lt;li&gt;THM-RA (S2B-PH)&lt;/li&gt;
-&lt;li&gt;THM  (B2B-PH)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD2" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="-SMT-RA" package="JST-PH-2-SMT-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-THM" package="JST-PH-2-THM">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-THM-RA" package="JST-PH-2-THM-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMT" package="JST-PH-2-SMT">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="heatsink">
 <description>&lt;b&gt;Heatsinks&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -17783,10 +17628,6 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <part name="SUPPLY58" library="supply2" deviceset="V+" device=""/>
 <part name="C205" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="2200uF"/>
 <part name="C203" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="2200uF"/>
-<part name="PWR+" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
-<part name="PWR-" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
-<part name="SWT_OUT" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
-<part name="SWT_IN" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
 <part name="SUPPLY60" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="V-" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -17865,6 +17706,14 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <part name="R_SPK-" library="con-faston" deviceset="PIN2" device="F061.100"/>
 <part name="L_SPK+" library="con-faston" deviceset="PIN2" device="F061.100"/>
 <part name="L_SPK-" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="SWT_IN+" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="SWT_IN-" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="SWT_OUT+" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="SWT_OUT-" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="PWR+" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="GND2_" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="GND1_" library="con-faston" deviceset="PIN2" device="F061.100"/>
+<part name="PWR-" library="con-faston" deviceset="PIN2" device="F061.100"/>
 </parts>
 <sheets>
 <sheet>
@@ -18649,14 +18498,10 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <instance part="SUPPLY58" gate="1" x="33.02" y="88.9"/>
 <instance part="C205" gate="G$1" x="55.88" y="33.02"/>
 <instance part="C203" gate="G$1" x="35.56" y="30.48" rot="R180"/>
-<instance part="PWR+" gate="G$1" x="40.64" y="76.2" rot="R180"/>
-<instance part="PWR-" gate="G$1" x="55.88" y="76.2" rot="R180"/>
-<instance part="SWT_OUT" gate="G$1" x="25.4" y="76.2" rot="R180"/>
-<instance part="SWT_IN" gate="G$1" x="10.16" y="76.2" rot="R180"/>
 <instance part="SUPPLY60" gate="1" x="76.2" y="12.7"/>
 <instance part="SUPPLY7" gate="1" x="33.02" y="60.96"/>
-<instance part="GND3" gate="1" x="48.26" y="60.96"/>
-<instance part="GND6" gate="1" x="63.5" y="88.9" rot="R180"/>
+<instance part="GND3" gate="1" x="55.88" y="60.96"/>
+<instance part="GND6" gate="1" x="71.12" y="88.9" rot="R180"/>
 <instance part="C202" gate="G$1" x="15.24" y="33.02"/>
 <instance part="SUPPLY11" gate="1" x="15.24" y="50.8"/>
 <instance part="C201" gate="G$1" x="5.08" y="33.02"/>
@@ -18670,6 +18515,30 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <instance part="C206" gate="G$1" x="66.04" y="33.02"/>
 <instance part="C204" gate="G$1" x="45.72" y="30.48" rot="R180"/>
 <instance part="ON" gate="G$1" x="76.2" y="40.64"/>
+<instance part="SWT_IN+" gate="-1" x="7.62" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.16" y="77.47" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SWT_IN-" gate="-1" x="7.62" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.16" y="69.85" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SWT_OUT+" gate="-1" x="22.86" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="77.47" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SWT_OUT-" gate="-1" x="22.86" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="69.85" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="PWR+" gate="-1" x="45.72" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="77.47" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND2_" gate="-1" x="45.72" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="69.85" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND1_" gate="-1" x="60.96" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="77.47" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="PWR-" gate="-1" x="60.96" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="69.85" size="1.778" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18686,16 +18555,16 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <pinref part="C203" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<pinref part="PWR+" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="48.26" y1="73.66" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="71.12" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="GND2_" gate="-1" pin="1"/>
 </segment>
 <segment>
-<pinref part="PWR-" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="76.2" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="78.74" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="GND1_" gate="-1" pin="1"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
@@ -18720,10 +18589,10 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <pinref part="SUPPLY60" gate="1" pin="V-"/>
 </segment>
 <segment>
-<pinref part="SWT_OUT" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="1" pin="V-"/>
-<wire x1="33.02" y1="63.5" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SWT_OUT-" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
@@ -18754,9 +18623,9 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 </segment>
 <segment>
 <pinref part="SUPPLY58" gate="1" pin="V+"/>
-<wire x1="33.02" y1="76.2" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SWT_OUT" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="78.74" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SWT_OUT+" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C202" gate="G$1" pin="1"/>
@@ -18776,30 +18645,30 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 </net>
 <net name="SWTIN+" class="0">
 <segment>
-<pinref part="SWT_IN" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="76.2" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="78.74" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="22.86" y="88.9" size="1.778" layer="95" rot="R180"/>
+<pinref part="SWT_IN+" gate="-1" pin="1"/>
 </segment>
 <segment>
-<pinref part="PWR+" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="76.2" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-<label x="53.34" y="88.9" size="1.778" layer="95" rot="R180"/>
+<wire x1="55.88" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="78.74" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="60.96" y="88.9" size="1.778" layer="95" rot="R180"/>
+<pinref part="PWR+" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="SWTIN-" class="0">
 <segment>
-<pinref part="SWT_IN" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="73.66" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="71.12" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="22.86" y="63.5" size="1.778" layer="95" rot="R180"/>
+<pinref part="SWT_IN-" gate="-1" pin="1"/>
 </segment>
 <segment>
-<pinref part="PWR-" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="73.66" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="68.58" y="63.5" size="1.778" layer="95" rot="R180"/>
+<wire x1="66.04" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="71.12" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<label x="76.2" y="63.5" size="1.778" layer="95" rot="R180"/>
+<pinref part="PWR-" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
