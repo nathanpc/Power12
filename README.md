@@ -1,8 +1,8 @@
 # Power12
 
-A mini 6 watts per channel amplifier.
+A compact 6 watts per channel amplifier.
 
-![PCB Layout](http://i.imgur.com/4JnRvoM.png)
+![Completed](http://i.imgur.com/JbLqN3I.jpg)
 
 
 ## Schematic
@@ -10,3 +10,6 @@ A mini 6 watts per channel amplifier.
 It's a very simple discrete power amplifier with a [CFP output stage](http://en.wikipedia.org/wiki/Sziklai_pair).
 
 ![Schematic](http://i.imgur.com/mh6FWhw.png)
+
+![PCB Layout](http://i.imgur.com/4JnRvoM.png)
+
